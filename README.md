@@ -36,8 +36,8 @@ Follow these instructions to set up and run the project on your local machine.
 1.  **Clone the repository:**
 
     ```sh
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/jayanthmani8045/IMDbDataInsightEngine.git
+    cd IMDbDataInsightEngine
     ```
 
 2.  **Create and activate a virtual environment (Recommended):**
@@ -65,7 +65,7 @@ Follow these instructions to set up and run the project on your local machine.
 To run the Streamlit application, execute the following command in your terminal from the project's root directory:
 
 ```sh
-streamlit run app.py
+streamlit run Home.py
 ```
 
 Your web browser will automatically open to the application's main page.
@@ -82,7 +82,7 @@ Your web browser will automatically open to the application's main page.
 The project uses a multi-page app structure recognized by Streamlit:
 
 ```
-├── app.py              # The main "About" page
+├── Home.py              # The main "About" page
 ├── scraper.py          # Contains the Selenium scraping function
 ├── requirements.txt    # Project dependencies
 └── pages/
