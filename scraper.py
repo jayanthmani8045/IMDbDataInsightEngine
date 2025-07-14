@@ -1,7 +1,7 @@
 import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
+from selenium import webdriver # type: ignore
+from selenium.webdriver.common.by import By # type: ignore
+from selenium.common.exceptions import NoSuchElementException # type: ignore
 import pandas as pd
 
 def scrape_imdb_action_movies(url, genre):
@@ -31,8 +31,8 @@ def scrape_imdb_action_movies(url, genre):
         except IndexError:
             censor = None
         try:
-            rating_text = container.find_element(By.CSS_SELECTOR, "span.ipc-rating-star.ipc-rating-star--base").get_attribute('aria-label')
-            rating = rating_text.replace('Rating: ', '')
+            rating_text = container.find_element(By.CSS_SELECTOR, ".ipc-rating-star--rating").text
+            rating = rating_text
         except (NoSuchElementException, AttributeError):
             rating = None
         try:

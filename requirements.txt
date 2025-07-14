@@ -3,3 +3,5 @@ pandas
 selenium
 matplotlib
 seaborn
+numpy
+plotly
