@@ -1,8 +1,8 @@
-# 🎬 IMDb Scraper & Visualizer
+# IMDb Scraper & Visualizer
 
 This project is an interactive web application built with Streamlit that allows users to dynamically scrape movie data from IMDb search pages and visualize the results. Users can input a URL and genre, collect data in real-time using Selenium, and then create custom, comparative plots to analyze trends in movie ratings, release years, and more.
 
-## ✨ Features
+## Features
 
   * **Dynamic Web Scraping**: Utilizes Selenium to scrape data from JavaScript-heavy IMDb pages.
   * **Multi-Page Interface**: A clean, multi-page app layout created with Streamlit.
@@ -12,7 +12,7 @@ This project is an interactive web application built with Streamlit that allows 
 
 -----
 
-## 🛠️ Tech Stack
+## Tech Stack
 
   * **Backend & Scraping**: Python, Selenium, Pandas
   * **Frontend & Data App**: Streamlit
@@ -20,7 +20,7 @@ This project is an interactive web application built with Streamlit that allows 
 
 -----
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to set up and run the project on your local machine.
 
@@ -60,7 +60,7 @@ Follow these instructions to set up and run the project on your local machine.
 
 -----
 
-## usage Usage
+## Deploying App
 
 To run the Streamlit application, execute the following command in your terminal from the project's root directory:
 
