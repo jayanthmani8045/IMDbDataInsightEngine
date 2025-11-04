@@ -2,6 +2,8 @@
 
 This project is an interactive web application built with Streamlit that allows users to dynamically scrape movie data from IMDb search pages and visualize the results. Users can input a URL and genre, collect data in real-time using Selenium, and then create custom, comparative plots to analyze trends in movie ratings, release years, and more.
 
+![Preview img]([http://url/to/img.png](https://github.com/jayanthmani8045/IMDbDataInsightEngine/blob/main/preview/preview1.png))
+
 ## Features
 
   * **Dynamic Web Scraping**: Utilizes Selenium to scrape data from JavaScript-heavy IMDb pages.
